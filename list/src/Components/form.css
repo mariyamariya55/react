@@ -1,0 +1,78 @@
+*{
+background-color: rgb(71, 150, 150);
+}
+
+input[type='text'] {
+    width: 200px; /* Adjust width as needed */
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+ 
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+ 
+  button[type='submit'] {
+    background-color: #4CAF50; /* Green background for submit button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  
+ .b2 {
+    background-color: red; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Style for edit button */
+  .b1 {
+    color: white;
+    border: none;
+    padding: 8px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 10px;
+    padding-left: 50px;
+    margin-right: 110px;
+   
+ 
+   
+  }
+  .a1{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .a2{
+    font-size: 20px;
+    font-weight: 500;
+  }
+ 
+ 

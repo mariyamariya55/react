@@ -1,0 +1,86 @@
+
+
+.container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .add-client-button {
+     /* Ensure it stays in the same position when scrolling */
+    top: 20px;
+    right: 20px;
+    position: fixed;
+    
+    
+    background-color: #007bff;
+    color: white;
+    border: none; /* Remove border */
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px; /* Increase font size for better readability */
+    z-index: 1000;
+     /* Ensure it stays above other content */
+  
+  }
+  
+  
+  .action-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  
+  
+  
+  
+.d1 {
+    background-color: #c82333;
+    border: navajowhite;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+  }
+ 
+  .d2{
+
+    background-color: rgba(35, 79, 200, 0.89);
+    border: navajowhite;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 6px;
+  }
+  .v1{
+
+    color: aliceblue;
+    background-color: #c82333;
+    margin-left: 1200px;
+  }
+  
+  .v2{
+   background-color: #007bff;
+   color: wheat;
+   font-size: 20px;
+   font-weight: 700;
+   margin-left: 1200px;
+   border: aliceblue;
+   margin-top: 10px;
+   border-radius: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }

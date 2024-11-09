@@ -1,0 +1,29 @@
+
+
+
+.navbar-fullwidth {
+    width: 100%;
+    position: relative;
+  }
+  
+  .navbar-fullwidth .container-fluid {
+    width: 100%;
+  }
+  
+  .category-link {
+    font-size: 40px ;
+    font-weight: 600 ;
+    font-weight: bold;
+    
+
+}
+
+.client-link {
+    font-size: 80px !important;
+    font-weight: 400 !important;
+}
+
+button {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}

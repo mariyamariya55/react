@@ -1,0 +1,138 @@
+/* :root {
+  --main-bg-color: hwb(215 79% 15%);
+  --primary-color: #0da00d;
+  --text-color: brown;
+  --highlight-color: aliceblue;
+} */
+
+body {
+  background-image: url('../Images/a2.jpg'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Prevent image from repeating */
+  background-color: lemonchiffon; /* Fallback color */
+}
+
+.car{
+
+  top: 2580px !important;
+  background-color: transparent;
+  color: white;
+
+
+
+}
+
+.cat {
+  background-image: url('../Images/a2.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 20px; /* Retain existing padding */
+  margin: 0 auto; /* Centered */
+  width: 100%; /* Full width */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px; /* Optional: add border radius for a softer look */
+  color: white; /* Adjust text color for better contrast */
+}
+
+.eee {
+  padding: 10px; /* Adjusted for easier tapping */
+  margin: 5px; /* Adjusted margin */
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  width: calc(100% - 20px); /* Full width with padding */
+}
+
+
+.category-button {
+  margin: 5px; /* Space between buttons */
+  flex: 1 1 120px; /* Flex-grow and shrink, base width */
+ /* Maximum width for buttons */
+border-radius: 5px;
+margin-bottom: 1000px;
+margin-top: 3000px;
+width: 30px;
+height: 790px;
+}
+.log{
+  margin-bottom: 200px;
+  width: 40px;
+
+}
+  
+.m1{
+  width: 100px;
+}
+
+
+
+.view-cart-button {
+  position: fixed;
+  top: 0; /* Positioned at the top */
+  left: 0; /* Positioned at the left */
+  z-index: 1000;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  border: none; /* No border */
+  font-size: 16px;
+  font-weight: 500;
+  width: 10%; /* Full width */
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 1300px;
+  margin-top: 10px;
+  padding-left: 20px;
+  background-color: #0da00d;
+   /* Fixed height for the button */
+}
+
+.swal2-popup {
+  font-size: 1.4rem;
+  background-color: #f0f0f0;
+}
+
+.swal2-title {
+  color: #333;
+}
+
+.swal2-confirm {
+  background-color: #4caf50;
+  color: white;
+}
+
+.swal2-deny {
+  background-color: #f44336;
+  color: white;
+  font-weight: 500;
+}
+
+.swal2-cancel {
+  background-color: #ff9800;
+  color: white;
+}
+.s1{
+  margin-left: 180px;
+  margin-right: 100px;
+  width: 200px;
+  margin-top: -200px !important;
+}
+
+
+
+.v1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .cat {
+  height: auto;
+    width: 100%; 
+    /* Responsive padding */
+    text-align: center;
+  }
+}
